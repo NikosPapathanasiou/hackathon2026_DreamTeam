@@ -15,6 +15,7 @@ const childRoutes = require('./routes/child.routes');
 const transactionRoutes = require('./routes/transaction.routes');
 const budgetRoutes = require('./routes/budget.routes');
 const educationRoutes = require('./routes/education.routes');
+const goalRoutes = require('./routes/goal.routes');
 
 // Middleware
 app.use(cors({
@@ -45,6 +46,7 @@ app.use('/api/children', childRoutes);
 app.use('/api/transactions', transactionRoutes);
 app.use('/api/budgets', budgetRoutes);
 app.use('/api/education', educationRoutes);
+app.use('/api/goals', goalRoutes);
 
 // 404 handler
 app.use((req, res) => {

@@ -11,6 +11,7 @@ import BalanceDisplay from './BalanceDisplay';
 import BudgetTracker from './BudgetTracker';
 import TransactionList from './TransactionList';
 import VirtualCard from './VirtualCard';
+import GoalTracker from '../goals/GoalTracker';
 
 export default function ChildDashboard() {
   const { childId } = useParams();
@@ -155,6 +156,11 @@ export default function ChildDashboard() {
             <BudgetTracker budgets={budgets} />
           </div>
         )}
+
+        {/* Goals */}
+        <div className="mb-8">
+          <GoalTracker childId={childId} childBalance={child.balance} />
+        </div>
 
         {/* Transactions */}
         <div>

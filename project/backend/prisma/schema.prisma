@@ -38,6 +38,7 @@ model Child {
   transactions        Transaction[]
   budgets            Budget[]
   educationalProgress EducationalProgress[]
+  goals              Goal[]
 }
 
 // Transaction record
@@ -78,4 +79,22 @@ model EducationalProgress {
 
   childId     Int
   child       Child    @relation(fields: [childId], references: [id], onDelete: Cascade)
+}
+
+// Savings goals for children
+model Goal {
+  id            Int      @id @default(autoincrement())
+  title         String   // e.g., "New Bike", "Video Game"
+  description   String?  // Optional details
+  targetAmount  Float    // Goal amount (e.g., 100.00)
+  currentAmount Float    @default(0.0) // How much saved so far
+  deadline      DateTime? // Optional deadline
+  imageUrl      String?  // Optional image/emoji
+  completed     Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  completedAt   DateTime?
+
+  childId       Int
+  child         Child    @relation(fields: [childId], references: [id], onDelete: Cascade)
 }
