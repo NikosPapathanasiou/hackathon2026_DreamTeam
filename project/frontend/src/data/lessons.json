@@ -1,0 +1,249 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What is Money?",
+      "description": "Learn the basics of money and why we use it",
+      "ageGroup": "8-12",
+      "duration": "5 min",
+      "level": 1,
+      "points": 100,
+      "content": [
+        {
+          "type": "intro",
+          "text": "Money is something we use to buy things we need and want. But where does it come from?"
+        },
+        {
+          "type": "fact",
+          "title": "Fun Fact!",
+          "text": "A long time ago, people traded things like shells, beads, and even salt as money!"
+        },
+        {
+          "type": "concept",
+          "title": "Why Do We Use Money?",
+          "points": [
+            "To buy food, clothes, and toys",
+            "To save for things we want later",
+            "To pay people for their work"
+          ]
+        },
+        {
+          "type": "example",
+          "title": "Real Life Example",
+          "text": "When you do chores, your parents might give you an allowance. That's your money for helping out!"
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "question": "What is money used for?",
+          "options": [
+            "Only to buy toys",
+            "To buy things we need and want",
+            "Just for decoration",
+            "Only for adults"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Money helps us buy all kinds of things - food, clothes, toys, and more!"
+        },
+        {
+          "id": 2,
+          "question": "What did people use as money long ago?",
+          "options": [
+            "Paper bills only",
+            "Credit cards",
+            "Shells and beads",
+            "Nothing"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Before paper money, people traded items like shells, beads, and even salt!"
+        },
+        {
+          "id": 3,
+          "question": "Why do parents give allowance?",
+          "options": [
+            "Just because",
+            "For doing chores and helping",
+            "To waste money",
+            "Only on birthdays"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Allowance is money you earn by doing chores and helping around the house!"
+        }
+      ],
+      "badge": {
+        "name": "Money Master",
+        "icon": "💰",
+        "color": "#FFD700"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Saving vs. Spending",
+      "description": "Learn when to save and when to spend your money",
+      "ageGroup": "8-12",
+      "duration": "7 min",
+      "level": 2,
+      "points": 150,
+      "content": [
+        {
+          "type": "intro",
+          "text": "You have money - now what? Should you spend it all or save some? Let's find out!"
+        },
+        {
+          "type": "concept",
+          "title": "What is Saving?",
+          "points": [
+            "Keeping money for later",
+            "Not spending everything right away",
+            "Building up money for something big"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "What is Spending?",
+          "points": [
+            "Using money to buy things now",
+            "Trading money for items or experiences",
+            "Making choices about what to buy"
+          ]
+        },
+        {
+          "type": "activity",
+          "title": "The 50-30-20 Rule for Kids",
+          "text": "Try dividing your money: 50% for spending, 30% for saving, 20% for sharing!"
+        },
+        {
+          "type": "example",
+          "title": "Real Life Example",
+          "text": "You get $10. You could spend it all on candy, or save $5 for a toy you really want next month!"
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "question": "What does saving mean?",
+          "options": [
+            "Spending all your money",
+            "Keeping money for later",
+            "Giving money away",
+            "Losing money"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Saving means keeping your money safe so you can use it later for something special!"
+        },
+        {
+          "id": 2,
+          "question": "If you get $10, what's a smart way to use it?",
+          "options": [
+            "Spend it all on candy right away",
+            "Save some and spend some",
+            "Hide it and forget about it",
+            "Give it all away"
+          ],
+          "correctAnswer": 1,
+          "explanation": "It's smart to save some money while also enjoying some now. Balance is key!"
+        },
+        {
+          "id": 3,
+          "question": "Why is saving important?",
+          "options": [
+            "To show off to friends",
+            "To buy bigger things later",
+            "It's not important",
+            "Only adults need to save"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Saving helps you buy bigger, better things you really want in the future!"
+        }
+      ],
+      "badge": {
+        "name": "Smart Saver",
+        "icon": "🏦",
+        "color": "#4CAF50"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Setting Goals",
+      "description": "Learn how to set and achieve your money goals",
+      "ageGroup": "8-12",
+      "duration": "6 min",
+      "level": 3,
+      "points": 200,
+      "content": [
+        {
+          "type": "intro",
+          "text": "A goal is something you want to achieve. Money goals help you get things you really want!"
+        },
+        {
+          "type": "concept",
+          "title": "Types of Goals",
+          "points": [
+            "Short-term: Things you want soon (like a new toy)",
+            "Medium-term: Things that take longer (like a video game)",
+            "Long-term: Big things (like a bike or tablet)"
+          ]
+        },
+        {
+          "type": "activity",
+          "title": "How to Set a Goal",
+          "text": "1. Pick something you want\n2. Find out how much it costs\n3. Figure out how much to save each week\n4. Track your progress!"
+        },
+        {
+          "type": "example",
+          "title": "Real Life Example",
+          "text": "You want a $30 toy. If you save $3 each week, you'll have enough in 10 weeks!"
+        },
+        {
+          "type": "fact",
+          "title": "Fun Fact!",
+          "text": "When you reach a goal, your brain releases happy chemicals! Setting goals feels great!"
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "question": "What is a money goal?",
+          "options": [
+            "Something you want to buy",
+            "A type of candy",
+            "A game",
+            "A place to keep money"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A money goal is something you're saving up to buy or achieve!"
+        },
+        {
+          "id": 2,
+          "question": "You want a $20 game. If you save $2 per week, how long until you can buy it?",
+          "options": [
+            "5 weeks",
+            "10 weeks",
+            "2 weeks",
+            "20 weeks"
+          ],
+          "correctAnswer": 1,
+          "explanation": "$20 ÷ $2 per week = 10 weeks. Great math!"
+        },
+        {
+          "id": 3,
+          "question": "Which is a short-term goal?",
+          "options": [
+            "Saving for college",
+            "Buying a car",
+            "Getting a candy bar next week",
+            "Saving for a house"
+          ],
+          "correctAnswer": 2,
+          "explanation": "A short-term goal is something you can achieve soon, like buying a candy bar!"
+        }
+      ],
+      "badge": {
+        "name": "Goal Getter",
+        "icon": "🎯",
+        "color": "#FF5722"
+      }
+    }
+  ]
+}

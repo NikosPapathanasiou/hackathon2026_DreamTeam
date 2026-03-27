@@ -1,0 +1,37 @@
+Person 1
+
+Person 1: Backend Developer
+Focus: Server, API, Database, Authentication
+
+Responsibilities:
+Set up backend framework (Node.js/Express or Python/Flask)
+Design and implement database schema
+Build REST API endpoints
+Implement authentication & authorization (JWT/sessions)
+Create user management system (parent + child accounts)
+Handle business logic for transactions, budgets, limits
+Set up environment & deployment
+Specific Tasks:
+
+// API Endpoints to build:
+POST   /api/auth/register          // Register parent account
+POST   /api/auth/login             // Login
+POST   /api/children                // Create child account
+GET    /api/children/:id            // Get child details
+POST   /api/transactions            // Create transaction
+GET    /api/transactions/:childId   // Get transaction history
+POST   /api/budgets                 // Set budget/limit
+GET    /api/budgets/:childId        // Get budgets
+PATCH  /api/transactions/:id/approve // Parent approve transaction
+GET    /api/balance/:childId        // Get current balance
+Database Schema:
+users (parents/guardians)
+children (child accounts)
+transactions (spending records)
+budgets (spending limits & goals)
+educational_progress (learning module completion)
+Tech Stack:
+Backend: Node.js + Express
+Database: SQLite or PostgreSQL
+Auth: JWT or Passport.js
+ORM: Prisma or Sequelize

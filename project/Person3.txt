@@ -1,0 +1,54 @@
+Person 3
+
+Person 3: Mobile/UI Developer
+Focus: Educational Features, Gamification, Kid-friendly Interface
+
+Responsibilities:
+Design and implement educational content system
+Build interactive learning modules
+Create gamification features (points, badges, levels)
+Design kid-friendly UI components
+Implement quiz/game mechanics
+Build progress tracking system
+Create engaging animations and interactions
+Specific Features to Build:
+Educational System:
+
+LessonViewer.jsx - Display educational content
+QuizComponent.jsx - Interactive quizzes
+ProgressTracker.jsx - Track learning progress
+BadgeSystem.jsx - Achievements & rewards
+LevelIndicator.jsx - Gamification levels
+Content Modules (at least 3):
+
+"What is Money?" - Basic financial concepts
+"Saving vs. Spending" - Budgeting basics
+"Setting Goals" - Financial goal-setting
+Interactive Elements:
+
+Drag-and-drop budget allocation
+Quiz with instant feedback
+Progress bars and animations
+Reward animations (badges, confetti)
+Interactive charts for kids
+Content Structure:
+
+// lessons.json structure
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What is Money?",
+      "description": "Learn the basics",
+      "ageGroup": "8-12",
+      "duration": "5 min",
+      "content": [...],
+      "quiz": [...]
+    }
+  ]
+}
+Tech Stack:
+Framework: React (same as Person 2)
+Animation: Framer Motion or React Spring
+Icons: Lucide React or Heroicons
+Charts: Recharts or Chart.js
